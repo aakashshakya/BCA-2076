@@ -54,5 +54,51 @@
         <h2>Hidden attribute example</h2>
         <p>This paragraph can be seen.</p>
         <p hidden>This paragraph cannot be seen.</p>
+
+        <h2>Some attributes that are only used for certain HTML elements/tags.</h2>
+        <h3>Examples of href attribute</h3>
+        <a href="https://www.linkedin.com" target="_blank">Redirect to LinkedIn</a>
+        <link type="text/css" href="style.css" />
+
+        <h3>Examples of type attribute</h3>
+        <script type="text/javascript">
+            // alert("Namastey Students, Welcome to Web technology class.");
+        </script>
+        <br />
+        <input type="text" placeholder="Enter your name" /><br />
+        <input type="number" placeholder="Enter your age" /><br />
+        <input type="password" placeholder="Enter your password" /><br />
+
+        <h3>Example of src attribute</h3>
+        <img src="profile.jpg" width="300px" height="300px" />
+        <script type="text/javascript" src="application.js"></script>
+
+        <h3>Example of method attribute</h3>
+        <form id="user-information-form" method="GET">
+            <input type="text" name="full_name" placeholder="Enter your name" required /><br />
+            <input type="number" name="age" placeholder="Enter your age" /><br />
+            <input type="password" name="password" placeholder="Enter your password" required /><br />
+            <input type="submit" value="Submit" />
+        </form>
+        <br />
+
+        <h3>Example of value attribute</h3>
+        <form method="GET">
+            <input type="number" name="contact_number" value="9851320011" /> <br />
+            Select Nationality:
+            <select name="nationality">
+                <option value="Nepal">Nepal</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="south korea">South Korea</option>
+            </select>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+
+        <h3>Example of readonly attribute</h3>
+        <form method="GET">
+            <input type="number" name="contact_number" value="9851320011" readonly /> <br />
+        </form>
     </body>
 </html>
