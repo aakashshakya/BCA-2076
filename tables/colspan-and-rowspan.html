@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Tables Colspan and Rowspan example</title>
+    <style>
+        .table-example {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Table colspan example</h3>
+    <table border="1px" cellspacing="5" cellpadding="5" class="table-example">
+        <thead>
+            <th>S.N.</th>
+            <th>Items</th>
+            <th>Price</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>T-shirt</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>LVD Jeans</td>
+                <td>4500</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Shoes</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="2" align="right">7200</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Rowspan example</h3>
+    <table border="1px" cellspacing="3" cellpadding="3" class="table-example">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                <th>Savings for holiday</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>15000</td>
+                <td rowspan="3">100000</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>20000</td>
+                <td>35000</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>10000</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">45000</td>
+                <td>56500</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

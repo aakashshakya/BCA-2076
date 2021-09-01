@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Tables</title>
+    <style>
+        .align-example {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Learning HTML tables alignment</h3>
+    <table border="1px" align="center" bgcolor="red" >
+        <thead>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>4.</td>
+                <td>Prashish Pradhan</td>
+                <td>Gongabu</td>
+                <td>prashish@gmail.com</td>
+                <td>9860784958</td>
+                <td>+2</td>
+            </tr>
+
+            <tr>
+                <td>5.</td>
+                <td>Samita Prajapati</td>
+                <td>Nardevi</td>
+                <td>samita@gmail.com</td>
+                <td>9865849483</td>
+                <td>+2</td>
+            </tr>
+
+            <tr>
+                <td>6.</td>
+                <td>Homa Khatri</td>
+                <td>Basantapur</td>
+                <td>homa@hotmail.com</td>
+                <td>9867284848</td>
+                <td>+2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Row alignment</h3>
+
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr align="right" bgcolor="green">
+                <td>4.</td>
+                <td>Prashish Pradhan</td>
+                <td>Gongabu</td>
+                <td>prashish@gmail.com</td>
+                <td>9860784958</td>
+                <td>+2</td>
+            </tr>
+
+            <tr>
+                <td>5.</td>
+                <td>Samita Prajapati</td>
+                <td>Nardevi</td>
+                <td>samita@gmail.com</td>
+                <td>9865849483</td>
+                <td>+2</td>
+            </tr>
+
+            <tr>
+                <td>6.</td>
+                <td>Homa Khatri</td>
+                <td>Basantapur</td>
+                <td>homa@hotmail.com</td>
+                <td>9867284848</td>
+                <td>+2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Column alignment</h3>
+
+    <table border="1px" summary="Students information table">
+        <thead>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>4.</td>
+                <td>Prashish Pradhan</td>
+                <td>Gongabu</td>
+                <td>prashish@gmail.com</td>
+                <td align="center">9860784958</td>
+                <td>+2</td>
+            </tr>
+
+            <tr>
+                <td>5.</td>
+                <td>Samita Prajapati</td>
+                <td>Nardevi</td>
+                <td>samita@gmail.com</td>
+                <td bgcolor="yellow">9865849483</td>
+                <td align="center">+2</td>
+            </tr>
+
+            <tr>
+                <td>6.</td>
+                <td>Homa Khatri</td>
+                <td>Basantapur</td>
+                <td>homa@hotmail.com</td>
+                <td>9867284848</td>
+                <td>+2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Table background color using css</h3>
+    <table border="1px" summary="Students information table" class="align-example">
+        <thead>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>4.</td>
+                <td>Prashish Pradhan</td>
+                <td>Gongabu</td>
+                <td>prashish@gmail.com</td>
+                <td align="center">9860784958</td>
+                <td>+2</td>
+            </tr>
+
+            <tr>
+                <td>5.</td>
+                <td>Samita Prajapati</td>
+                <td>Nardevi</td>
+                <td>samita@gmail.com</td>
+                <td bgcolor="yellow">9865849483</td>
+                <td align="center">+2</td>
+            </tr>
+
+            <tr>
+                <td>6.</td>
+                <td>Homa Khatri</td>
+                <td>Basantapur</td>
+                <td>homa@hotmail.com</td>
+                <td>9867284848</td>
+                <td>+2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Contact Number</th>
+                <th>Qualification</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
