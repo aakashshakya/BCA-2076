@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML form using fieldset</title>
+    <style>
+        fieldset {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://localhost/BCA-2076/form/user-information.php" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+
+                <tr>
+                    <td><label for="first-name">First Name</label></td>
+                    <td><input type="text" id="first-name" required name="first_name" placeholder="Enter your first name" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="middle-name">Middle name</label></td>
+                    <td><input type="text" id="middle-name" name="middle_name" placeholder="Enter your middle name" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="last-name">Last name</label></td>
+                    <td><input type="text" id="last-name" required name="last_name" placeholder="Enter your last name" /></td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" required name="date_of_birth" placeholder="Date of birth" /></td>
+                </tr>
+
+                <tr>
+                    <td>Gender</td>
+                    <td>Male<input type="radio" value="male" name="gender" /> Female<input type="radio" value="female" name="gender" /> Others<input type="radio" value="others" name="gender" /></td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" required name="email" placeholder="Enter your email address" /></td>
+                </tr>
+
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" required name="address" placeholder="Enter your address" /></td>
+                </tr>
+               
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Parents Information</legend>
+            <table>
+
+                <tr>
+                    <td>Father's Name</td>
+                    <td><input type="text" required name="father_name" placeholder="Enter your father's name" /></td>
+                </tr>
+
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><input type="text" name="mother_name" placeholder="Enter your mother's name" /></td>
+                </tr>
+
+                <tr>
+                    <td>Occupation</td>
+                    <td><input type="text" required name="occupation" placeholder="Enter your father's occupation" /></td>
+                </tr>               
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Academic Qualification</legend>
+            <table>
+                <tr>
+                    <td>District Level</td>
+                    <td><input type="text" required name="district_level_percentage" placeholder="Enter your district level percentage" /></td>
+                </tr>
+                <tr>
+                    <td>S.E.E</td>
+                    <td><input type="text" required name="see_percentage" placeholder="Enter your S.E.E percentage" /></td>
+                </tr>
+                <tr>
+                    <td>HSEB</td>
+                    <td><input type="text" required name="hseb_percentage" placeholder="Enter your HSEB percentage" /></td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td><input type="reset" /></td>
+                <td><input type="submit" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

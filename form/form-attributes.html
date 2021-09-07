@@ -8,11 +8,14 @@
 <body>
     <h3>HTML Forms</h3>
     <form action="http://localhost/BCA-2076/form/register.php" method="POST" enctype="multipart/form-data">
-        <input type="text" placeholder="Enter your full name" name="full_name" required /><br />
-        <input type="text" placeholder="Enter your email address" name="email_address" required/><br />
-        <input type="password" placeholder="Enter your password" name="password" required/> <br />
+        <input type="text" placeholder="Enter your full name" name="full_name" required readonly
+            value="Aakash Raj Shakya" /><br />
+        <input type="text" placeholder="Enter your email address" name="email_address" required
+            value="test@gmail.com" /><br />
+        <input type="password" placeholder="Enter your password" name="password" required /> <br />
         <input type="number" placeholder="Enter your contact number" name="contact_number" required /><br />
-        Male: <input type="radio" name="gender" /> Female: <input type="radio" name="gender" /> Others: <input type="radio" name="gender" /> 
+        Male: <input type="radio" name="gender" /> Female: <input type="radio" name="gender" /> Others: <input
+            type="radio" name="gender" />
         <br />
         <select name="country">
             <option>Select Country</option>
@@ -21,22 +24,24 @@
             <option>India</option>
             <option>Srilanka</option>
         </select>
-        <br/>
-        <input type="file" name="profile_picture" />
-        <br/>
-        Basketball<input type="checkbox" name="hobbies"/>
-        <br/>
-        Dancing<input type="checkbox" name="hobbies"/>
-        <br/>
-        Travelling<input type="checkbox" name="hobbies"/>
-        <br/>
-        Listening to music<input type="checkbox" name="hobbies"/>
-        <br/>
-        Watching movies<input type="checkbox" name="hobbies"/>
         <br />
-        <textarea placeholder="Describe about yourself" name="personal_information"></textarea>
-        <br/>
-        <input type="submit" /> <input type="reset" /> 
+        <input type="text" name="country_code" pattern="[A-Za-z]{3}" required placeholder="Enter your country code" />
+        <br />
+        <input type="file" name="profile_picture" />
+        <br />
+        Basketball<input type="checkbox" name="hobbies" />
+        <br />
+        Dancing<input type="checkbox" name="hobbies" />
+        <br />
+        Travelling<input type="checkbox" name="hobbies" />
+        <br />
+        Listening to music<input type="checkbox" name="hobbies" />
+        <br />
+        Watching movies<input type="checkbox" name="hobbies" />
+        <br />
+        <textarea placeholder="Describe about yourself" name="personal_information" rows="10" cols="35"></textarea>
+        <br />
+        <input type="submit" /> <input type="reset" />
     </form>
 </body>
 
