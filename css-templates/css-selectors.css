@@ -1,0 +1,24 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label {
+    color: coral;
+}
+
+#id-selector {
+    color: brown;
+}
+
+.class-selector {
+    color: dimgray;
+}
+
+p, div, span, h4 {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+a[target] {
+    color: darkgoldenrod;
+}
