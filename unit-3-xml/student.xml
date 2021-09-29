@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+   <full_name>Mahendra Thapa Magar</full_name>
+   <age>28</age>
+   <college>National College of Computer Studies</college>
+   <address>
+      <tole>Lagan Tole</tole>
+      <ward>28</ward>
+      <district>Kathmandu</district>
+      <province>Province 3</province>
+      <country>Nepal</country>
+   </address>
+   <occupation>Software Developer</occupation>
+</student>
