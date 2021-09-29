@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students_xsl_file.xsl" ?>
+<students>
+
+    <student>
+        <name>Aakash</name>
+        <address>Lagan</address>
+        <contact_number>9860706065</contact_number>
+        <college>ACHS</college>
+    </student>   
+
+    <student>
+        <name>Manish Maharjan</name>
+        <address>Sadtobato</address>
+        <contact_number>9843332223</contact_number>
+        <college>Patan college</college>
+    </student>
+    
+</students>
