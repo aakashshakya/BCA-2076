@@ -2,7 +2,6 @@
     // $xml_str = file_get_contents('http://localhost/web-technologies/xml/index.php');
     $xml_str = file_get_contents('student.xml');
     $xml = new SimpleXMLElement($xml_str);
-    // echo "<pre>"; print_r($xml); exit;
     $name = $xml->full_name;
     $age = $xml->age;
     $college = $xml->college;
