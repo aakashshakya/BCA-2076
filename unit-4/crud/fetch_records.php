@@ -13,6 +13,7 @@
       $i = 0;
       // Looping through the results
       while($row = mysqli_fetch_assoc($result)) {
+        // $students[$i] = $row; //You can also do this. This is short and simple
         $students[$i] = array(
           "id" => $row['id'],
           "full_name" => $row['full_name'],
@@ -24,7 +25,6 @@
         $i++;
       }
   } 
-
   //connection close
   mysqli_close($conn);
 ?>
