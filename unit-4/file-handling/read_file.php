@@ -1,7 +1,4 @@
 <?php
-    ini_set ('display_errors', 1);
-    error_reporting (E_ALL | E_STRICT);
-
     echo "Reading file using readfile function <br /><br />";
     //Reading file using readfile function it also return number of characters
     echo readfile("document.txt");

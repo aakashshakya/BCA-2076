@@ -14,11 +14,15 @@ label {
     color: dimgray;
 }
 
-p, div, span, h4 {
+p, div, span, h4, h1 {
     font-size: 20px;
     color: dodgerblue;
 }
 
 a[target] {
     color: darkgoldenrod;
+}
+
+input[type] {
+    border-radius: 20%;
 }
