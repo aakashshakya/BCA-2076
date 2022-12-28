@@ -3,8 +3,7 @@
 <head>
     <title>Example of Pseudo class</title>
     <style>
-        p::before {
-            content: 'Read This - ';
+        span {
             color: red;
             background-color: cornflowerblue;
         }
@@ -18,7 +17,7 @@
     </style>
 </head>
 <body>
-    <p>This p tag's first line will be red.<br /> This will not take affect.</p>
+    <p><span>Read This - </span>This p tag's first line will be red.<br /> This will not take affect.</p>
     <div>This div section's first line will be red. This div section's first line will be red. This div section's first line will be red. <br /> This line will not take affect. </div>
     <h1>This is the main title.</h1>
 </body>

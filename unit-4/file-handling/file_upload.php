@@ -1,7 +1,8 @@
 <?php
-$target_dir = "C:/xampp/htdocs/web-tech/uploads/";
+$target_dir = "D:/Projects/xampp/htdocs/BCA-2076/unit-4/file-handling/uploads/";
 $target_file = $target_dir.basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
+
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
@@ -35,6 +36,7 @@ if ($uploadOk == 0) {
     echo "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
 } else {
+    //Only this code can be used to upload the file.
     echo "<br>".$target_file."<br>";
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
